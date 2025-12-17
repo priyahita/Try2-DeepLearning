@@ -20,7 +20,7 @@ st.title("🦺 Real-Time PPE Detection with Warning System")
 # ======================
 @st.cache_resource
 def load_model():
-    return YOLO("C:\\Users\\rakaj\\Documents\\Kuliah\\Semeter 3\\DeepLearning Lec\\Project\\web\\model_ppe_tuned.pt")
+    return YOLO("model_ppe_tuned.pt")
     
 
 model = load_model()
