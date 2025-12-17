@@ -1,9 +1,3 @@
 ultralytics
-opencv-python-headless
-torch
 cv2
 time
-threading
-os
-gtts 
-playsound 
